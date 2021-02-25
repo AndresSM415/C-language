@@ -25,10 +25,8 @@ int main()
 {
     int queue[5], iqueue = 0;//(check how many commands are waiting to be closed), (index queue)
     int nc = 0; //new command
-    char *filename = "C:\\Users\\andre\\Downloads\\locura.txt";
-    FILE *fptr = fopen(filename, "r");//"w" if you want to edit a file (Minhaj A.)
-    
-    while((c = getc(fptr)) != EOF)
+
+    while((c = getchar()) != EOF)
     {
         ln[i] = c;
         if(c == '<')
@@ -57,10 +55,10 @@ int main()
         else if((queue[iqueue-1] == 0 || queue[iqueue-1] == 1) && iqueue > 0 && (c == ' ' || c == '\t'))// comandos <h1> y strong
             ln[i] = '_';
         else if(queue[iqueue-1] == 3 && iqueue > 0)
-            while((c = getc(fptr)) != EOF)
+            while((c = getchar()) != EOF)
                 if(c == '<')
                 {
-                    for(g = 0; (g < 8) && ((c = getc(fptr)) == outcommand[3][g]); g++){}
+                    for(g = 0; (g < 8) && ((c = getchar()) == outcommand[3][g]); g++){}
                     if(g == 8)
                     {
                         iqueue--;
@@ -81,9 +79,6 @@ int main()
         i++;
     }
     println();
-
-    fclose(fptr);
-    _getch();
     return 0;
 }
 
@@ -116,8 +111,10 @@ int oldCommand()
     return state;
 }
 void println()
+{
     for(int e = 0; i-e > 0; e++)//escribe el texto ya modificado
         printf("%c", ln[e]);
+}
 /*ANSI C syntax gotten by Satu Elisa Schaeffer 	elisa.schaeffer@gmail.com
 opening a file code was gotten by Minhaj Ansari in this video: https://www.youtube.com/watch?v=G5A04QCi7e4&ab_channel=MinhajAnsari
 */
