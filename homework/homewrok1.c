@@ -29,8 +29,8 @@ int newCommand();
 int main()
 {
     char *filename = "C:\\Users\\andre\\Downloads\\locura.txt";
-    FILE *fptr = fopen(filename, "r");//"w" if you want to edit a file
-    //I got the code to open a file in this video: https://www.youtube.com/watch?v=G5A04QCi7e4&ab_channel=MinhajAnsari
+    FILE *fptr = fopen(filename, "r");//"w" if you want to edit a file (Minhaj A.)
+    //
     while((c = getc(fptr)) != EOF)
     {
         ln[i] = c;
@@ -129,3 +129,6 @@ void println()
     for(int e = 0; i-e > 0; e++)//escribe el texto ya modificado
         printf("%c", ln[e]);
 }
+/*ANSI C syntax gotten by Satu Elisa Schaeffer 	elisa.schaeffer@gmail.com
+opening a file code was gotten by Minhaj Ansari in this video: https://www.youtube.com/watch?v=G5A04QCi7e4&ab_channel=MinhajAnsari
+*/
