@@ -44,6 +44,7 @@ int main()
     if((estado = muestraPos(minas, mapa, j, i, coordenadas)) == -1)
     {
         printf("perdiste!\n");
+        imprimeMapa(mapa);
         break;
     }
     else if(estado == 1)
