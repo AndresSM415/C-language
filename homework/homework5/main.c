@@ -28,8 +28,8 @@ int main()
             mapa[j][i] = '#';
         }
     }
-
-    printf("cuantas minas quieres?: \n");
+    
+    printf("*Buscaminas*\nPara enviar una coordenada escribe una letra(columnas) y un numero(filas)\nPara guardar una posicion escribe un '!' antes de la coordenada ej. !e5\ncuantas minas quieres?: \n");
     int c, noMinas = 0;
     while(isdigit(c = getchar()))
         noMinas = noMinas*10 + c - '0';
