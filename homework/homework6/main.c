@@ -6,6 +6,7 @@ int findc(node* pos, char* value);
 
 int main()
 {
+    printf("para agregar un usuario pon un '+' seguido por el nombre y con un espacio despues, pones la contraseña.\n Para eliminar un usuario pones un '-' seguido por el nombre y la contraseña de la manera mencionada anteriormente.\n Ej. \"+ juan 123\"");
     char account[MAX];
     node* n = NULL;
     node* tree = NULL;
