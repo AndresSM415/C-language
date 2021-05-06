@@ -57,8 +57,6 @@ node* save(node* worker, int c, FILE* fRHr)
 }
 node* addworker(node* worker, char name[], char pin[], int cal[])
 {
-    
-    printf("se gurdo %s.\n", name);
     if(worker == NULL)
     {
         worker = (node*)malloc(sizeof(node));
@@ -108,7 +106,6 @@ void textworker(node* worker, FILE* fRHw)
 {
     if(worker != NULL)
     {
-        printf("a punto de guardar: %s", worker->name);
         fprintf(fRHw, "\n%s %s\n", worker->name, worker->pin);//
         for(int i = 0; i < 7; i++)
         {
