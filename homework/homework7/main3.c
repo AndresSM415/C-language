@@ -5,6 +5,8 @@ node* reporta(node* worker);
 int main()
 {
     printf("This is the Report of the Week\n");
+    printf("A day is represented by 24 seconds.");
+    printf("L = late; E = early; A = absent; N/A = free day.");
     node *worker = NULL;
 
     char *RHFile = "RH.txt";
