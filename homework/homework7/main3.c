@@ -6,14 +6,14 @@ int main()
 {
     printf("This is the Report of the Week\n");
     printf("A day is represented by 24 seconds.\n");
-    printf("L = late; E = early; A = absent; N/A = free day.");
+    printf("L = late; E = early; A = absent; N/A = free day.\n");
     node *worker = NULL;
 
     char *RHFile = "RH.txt";
     FILE *fRHr = fopen(RHFile, "r");
     int c;
     while(fscanf(fRHr, "%d", &c) == 1){}
-    printf("we have %d workers\n", c);
+    printf("We have %d workers\n", c);
     worker = saveRH(worker, c, fRHr);
     fclose(fRHr);
 
