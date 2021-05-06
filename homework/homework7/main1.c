@@ -1,3 +1,10 @@
+//FAVOR DE LEER INSTRUCCIONES
+/*ESTE ARCHIVO DEBE REPRODUCIRSE EN ONLINE GDB EN EL MAIN, NO COMO SE LLAMA EN ESTA CARPETA, SINO COMO "main.c"
+La razon por la que le puse nombres distintos es para identificarlos. 
+Primero crea el archivo llamado "mysql.h".
+Despues se pone este codigo en el apartado de main.c
+Una vez terminado con la ejecucion borras el codigo del apartado main.c y reemplazas con el codigo del archivo main2.c y haces lo mismo para el main.3*/
+
 #include "mysql.h"
 node* save(node* worker, int c, FILE* fRHr);
 void genpin(char pin[]);
@@ -9,6 +16,9 @@ int main()
     node *worker = NULL;
 
     char *RHFile = "RH.txt";
+    FILE* pon0 = fopen(RHFile, "w");
+    fprintf(pon0, "0");
+    fclose(pon0);
     FILE *fRHr = fopen(RHFile, "r");
     int c;
     while(fscanf(fRHr, "%d", &c) == 1){}
