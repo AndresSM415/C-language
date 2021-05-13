@@ -5,7 +5,7 @@ The goal is to reach a tile with a value of 2048.
 First you start with a sole tile of value 2, then by moving that tile back and forth it appears another one with value 2 as well.
 If 2 tiles are in the same axis, and there is no tiles between them, by making a movement in that axis the two tiles will add together.
 
-
+## Target
 Our goal in this program is to replicate the game with the addition of a max points' recording system.
 
 ## Logic
