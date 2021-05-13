@@ -20,3 +20,4 @@ The algorithm works as follows:
 
 In case of a game over count the matrix´s value and compare with the latest record registered.
 
+![alt text](https://github.com/AndresSM415/C-language/blob/main/images/algoritmo.PNG "Saquenme de Latinoamerica")
