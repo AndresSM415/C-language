@@ -31,4 +31,4 @@ In case of a game over: count matrix´s value and compare with the latest record
 
 ---
 ## Beta
-To show a progress [this is what I´ve done so far](https://github.com/AndresSM415/C-language/edit/main/homework/FinalProject). It basically covers step 2 till number 4. So it shows a pre-established matrix that you can move as you wish.
+To show a progress [this is what I´ve done so far](https://github.com/AndresSM415/C-language/tree/main/homework/FinalProject/Beta13April). It basically covers step 2 till number 4. So it shows a pre-established matrix that you can move as you wish.
