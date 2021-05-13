@@ -8,6 +8,13 @@ If 2 tiles are in the same axis, and there is no tiles between them, by making a
 ## Target
 Our goal in this program is to replicate the game with the addition of a max points' recording system.
 
+### How to play ![alt text](https://github.com/AndresSM415/C-language/blob/main/images/wasd.jpg "WASD keys")
+You will see the current matrix and by type a single WASD letter the matrix will move as it is known intuitively:
+* W: up
+* A: left
+* S: Downwards
+* D: Right 
+* 
 ## Logic
 The algorithm works as follows:
 1. First you have to generate a random tile coordinate [j][i] where there's no number yet, and then put a 2 there.
@@ -21,3 +28,7 @@ The algorithm works as follows:
 In case of a game over: count matrix´s value and compare with the latest record registered.
 
 ![alt text](https://github.com/AndresSM415/C-language/blob/main/images/algoritmo.PNG "Saquenme de Latinoamerica")
+
+---
+## Beta
+To show a progress this is what I´ve done so far. It basically covers step 2 till number 4. So it shows a pre-established matrix that you can move with WASD keys
