@@ -14,7 +14,7 @@ You will see the current matrix and by type a single WASD letter the matrix will
 * A: left
 * S: Downwards
 * D: Right 
-* 
+
 ## Logic
 The algorithm works as follows:
 1. First you have to generate a random tile coordinate [j][i] where there's no number yet, and then put a 2 there.
