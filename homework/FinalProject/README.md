@@ -6,13 +6,17 @@ First you start with a sole tile of value 2, then by moving that tile back and f
 If 2 tiles are in the same axis, and there is no tiles between them, by making a movement in that axis the two tiles will add together.
 
 
-Our goal in this program is to replicate the game with the addition of a max points' record.
+Our goal in this program is to replicate the game with the addition of a max points' recording system.
 
 ## Logic
 The algorithm works as follows:
-1. First you have to generate a random tile coordinate [j][i] where there is no a number yet, and then put a 2 there.
+1. First you have to generate a random tile coordinate [j][i] where there's no a number yet, and then put a 2 there.
 2. After that, ask the user what´s the next movement.
 3. Move the tile(s) in that direction.
 4. Add the tiles with same numbers.
 5. Move again the tiles if there was a new tile created in step 4.
-6. 
+6. Check if there is a tile with no numbers or neighbor tiles with same value. If not, game over.
+7. If step 6 was successfully achieved, repeat from step 1.
+
+In case of a game over count the matrix´s value and compare with the latest record registered.
+
