@@ -10,8 +10,8 @@ Our goal in this program is to replicate the game with the addition of a max poi
 
 ### How to play ![alt text](https://github.com/AndresSM415/C-language/blob/main/images/wasd.jpg "WASD keys")
 You will see the current matrix and by type a single WASD letter the matrix will move as it is known intuitively:
-* W: up
-* A: left
+* W: Up
+* A: Left
 * S: Downwards
 * D: Right 
 
