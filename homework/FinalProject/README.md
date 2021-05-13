@@ -10,7 +10,7 @@ Our goal in this program is to replicate the game with the addition of a max poi
 
 ## Logic
 The algorithm works as follows:
-1. First you have to generate a random tile coordinate [j][i] where there's no a number yet, and then put a 2 there.
+1. First you have to generate a random tile coordinate [j][i] where there's no number yet, and then put a 2 there.
 2. After that, ask the user what´s the next movement.
 3. Move the tile(s) in that direction.
 4. Add the tiles with same numbers.
