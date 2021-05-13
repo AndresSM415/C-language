@@ -9,7 +9,7 @@ If 2 tiles are in the same axis, and there is no tiles between them, by making a
 Our goal in this program is to replicate the game with the addition of a max points' recording system.
 
 ### How to play ![alt text](https://github.com/AndresSM415/C-language/blob/main/images/wasd.jpg "WASD keys")
-You will see the current matrix and by type a single WASD letter the matrix will move as it is known intuitively:
+You will see the current matrix and by typying a single WASD letter the matrix will move as it is known intuitively:
 * W: Up
 * A: Left
 * S: Downwards
