@@ -32,3 +32,4 @@ In case of a game over: count matrix´s value and compare with the latest record
 ---
 ## References
 Dave T. (2019, 29 julio). ¡APRENDE a JUGAR al 2048 con este TUTORIAL! (Y haz números grandes FÁCIL con esta ESTRATEGIA 😎) [Vídeo]. YouTube. https://www.youtube.com/watch?v=dUi4AcI7efM&t=548s
+Ritchie, D. (1988). C Programming Language (1st ed.) [Libro electrónico]. Pearson. https://www.goodreads.com/book/show/515601.The_C_Programming_Language
