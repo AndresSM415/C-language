@@ -30,5 +30,5 @@ In case of a game over: count matrix´s value and compare with the latest record
 ![alt text](https://github.com/AndresSM415/C-language/blob/main/images/algoritmo.PNG "Saquenme de Latinoamerica")
 
 ---
-## Beta
-To show a progress [this is what I´ve done so far](https://github.com/AndresSM415/C-language/tree/main/homework/FinalProject/Beta13April). It basically covers step 2 till number 4. So it shows a pre-established matrix that you can move as you wish.
+## References
+Dave T. (2019, 29 julio). ¡APRENDE a JUGAR al 2048 con este TUTORIAL! (Y haz números grandes FÁCIL con esta ESTRATEGIA 😎) [Vídeo]. YouTube. https://www.youtube.com/watch?v=dUi4AcI7efM&t=548s
