@@ -25,7 +25,7 @@ The algorithm works as follows:
 6. Check if there is a tile with no numbers or neighbor tiles with same value. If not, game over.
 7. If step 6 was successfully achieved, repeat from step 1.
 
-In case of a game over: count matrix´s value and compare with the latest record registered.
+In case of a game over: count matrix´s values and compare with the latest record registered.
 
 ![alt text](https://github.com/AndresSM415/C-language/blob/main/images/algoritmo.PNG "Saquenme de Latinoamerica")
 
