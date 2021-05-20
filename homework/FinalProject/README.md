@@ -34,7 +34,7 @@ In case of a game over: count matrix´s values and compare with the latest recor
 
 ## Autoevaluation
 
-Complexity 3: It is complex due to the heavily use of pointers used to stack the tiles in any directions.
+Complexity 3: It is complex due to the heavily use of pointers used to stack the tiles in any direction.
 
 Functionality 3: It doesn´t crack with any key, and I haven´t seen an error during game.
 
