@@ -1,7 +1,7 @@
 #include "my2048.h"
 int truemove;
 void stickAndSum(int**, int, int, int);
-int moveMatriz(int** matriz)//Stack and sum matrix. In case of no actual change of matrix, warn to avoid generating random number.
+int moveMatriz(int** matriz)//Stack and sum matrix. In case of no actual change of matrix, warn to avoid generating random number. 
 {
     truemove = 0;
     char c;
