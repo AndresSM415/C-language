@@ -32,6 +32,18 @@ In case of a game over: count matrix´s values and compare with the latest recor
 ## Video
 [compiling video](https://youtu.be/Q9C4poj57p8)
 
+## Autoevaluation
+
+Complexity 3: it is complex due to the heavily use of pointers to stack the tiles in any directions.
+
+Functionality 3: It doesn´t crack with any key, and I haven´t seen an error during game.
+
+Code 3: pretty neat. All code´s lines commented.
+
+Storage 3: Every matrix open is freed after use.
+
+Documentation 3: I think video was lovely, also since my code doesn´t use too much text, This point wasn´t a problem.
+
 ---
 ## References
 Dave T. (2019, 29 julio). ¡APRENDE a JUGAR al 2048 con este TUTORIAL! (Y haz números grandes FÁCIL con esta ESTRATEGIA 😎) [Vídeo]. YouTube. https://www.youtube.com/watch?v=dUi4AcI7efM&t=548s
