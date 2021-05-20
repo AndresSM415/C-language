@@ -34,11 +34,11 @@ In case of a game over: count matrix´s values and compare with the latest recor
 
 ## Autoevaluation
 
-Complexity 3: it is complex due to the heavily use of pointers to stack the tiles in any directions.
+Complexity 3: It is complex due to the heavily use of pointers to stack the tiles in any directions.
 
 Functionality 3: It doesn´t crack with any key, and I haven´t seen an error during game.
 
-Code 3: pretty neat. All code´s lines commented.
+Code 3: Pretty neat, functions well applied. All code´s lines commented.
 
 Storage 3: Scores are saved. Every matrix open is freed after use.
 
