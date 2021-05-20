@@ -44,6 +44,8 @@ Storage 3: Scores are saved permanently. Every matrix open is freed after use. I
 
 Documentation 3: I think video was lovely. The game logic was discussed before, all code instructions are well explained.
 
+Total: 15pts.
+
 ---
 ## References
 Dave T. (2019, 29 julio). ¡APRENDE a JUGAR al 2048 con este TUTORIAL! (Y haz números grandes FÁCIL con esta ESTRATEGIA 😎) [Vídeo]. YouTube. https://www.youtube.com/watch?v=dUi4AcI7efM&t=548s
