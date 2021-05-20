@@ -44,7 +44,7 @@ Storage 3: Scores are saved permanently. Every matrix open is freed after use. I
 
 Documentation 3: I think video was lovely. The game logic was discussed before, all code instructions are well explained.
 
-Total: 14pts.
+Total: 15pts.
 
 ---
 ## References
