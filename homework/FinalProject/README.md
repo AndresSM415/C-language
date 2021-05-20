@@ -29,7 +29,7 @@ In case of a game over: count matrix´s values and compare with the latest recor
 
 ![alt text](https://github.com/AndresSM415/C-language/blob/main/images/algoritmo.PNG "Saquenme de Latinoamerica")
 
-##Video
+## Video
 [compiling video](https://youtu.be/Q9C4poj57p8)
 
 ---
