@@ -40,7 +40,7 @@ Functionality 3: It doesn´t crack with any key, and I haven´t seen an error du
 
 Code 3: pretty neat. All code´s lines commented.
 
-Storage 3: Every matrix open is freed after use.
+Storage 3: Scores are saved. Every matrix open is freed after use.
 
 Documentation 3: I think video was lovely, also since my code doesn´t use too much text, This point wasn´t a problem.
 
