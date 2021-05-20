@@ -40,7 +40,7 @@ Functionality 3: It doesn´t crack with any key, and I haven´t seen an error du
 
 Code 3: Pretty neat, functions well applied. All code´s lines commented.
 
-Storage 2: Scores are saved permanently, but it wasn´t that challenging. Every matrix open is freed after use. Intuitive communication user-console.
+Storage 2: Scores are saved permanently, but use of structures was not implemented. Every matrix open is freed after use. Intuitive communication user-console.
 
 Documentation 3: I think video was lovely. The game logic was discussed before, all code instructions are well explained.
 
